@@ -12,7 +12,7 @@ func _ready():
 func _process(delta):
 	# animate cogs
 	$BackCog.rotate(delta*speed)
-	$BigCog.rotate(-delta*2*speed)
+	$BigCog.rotate(-delta*0.5*speed)
 	$BigCog/CogCircle.rotate(delta*2*speed)
 	$Sonic/Cog.rotate(-delta*1.5*speed)
 	

@@ -310,7 +310,7 @@ region_rect = Rect2(488, 8, 32, 40)
 
 [node name="CharacterAnimations" type="AnimationPlayer" parent="UI/Labels/CharacterOrigin"]
 libraries = {
-"": SubResource("AnimationLibrary_wio08")
+&"": SubResource("AnimationLibrary_wio08")
 }
 autoplay = "Animate"
 

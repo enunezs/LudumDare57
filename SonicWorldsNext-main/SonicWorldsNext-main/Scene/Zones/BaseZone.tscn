@@ -145,7 +145,7 @@ defaultBottomBoundry = 2048
 
 [node name="Animate" type="AnimationPlayer" parent="ParallaxBackground"]
 libraries = {
-"": SubResource("AnimationLibrary_kdk5h")
+&"": SubResource("AnimationLibrary_kdk5h")
 }
 autoplay = "Glow"
 
@@ -316,7 +316,7 @@ endPosition = Vector2(0, 0)
 [node name="Platform2" parent="Platforms" instance=ExtResource("7_rjmim")]
 position = Vector2(1088, 240)
 platformSprite = ExtResource("10_m5ppr")
-endPosition = Vector2(0, 128)
+endPosition = Vector2(3, 128)
 
 [node name="Platform3" parent="Platforms" instance=ExtResource("11_wdcc0")]
 position = Vector2(5296, 1032)

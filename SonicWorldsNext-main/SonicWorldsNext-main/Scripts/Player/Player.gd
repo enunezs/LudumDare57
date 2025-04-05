@@ -138,7 +138,7 @@ var lastActiveAnimation = ""
 var defaultSpriteOffset = Vector2.ZERO
 
 var camera = Camera2D.new()
-var camDist = Vector2(32,64)
+var camDist = Vector2(128,64) # Vector2(32,64)
 var camLookDist = [-104,88] # Up and Down
 var camLookAmount = 0
 var camLookOff = 0
